@@ -3,28 +3,21 @@
     "name": "rouletteprivatepredictor",
     "slug": "rouletteprivatepredictor",
     "version": "1.0.0",
+    "platforms": ["ios", "android"],
     "orientation": "portrait",
-    "icon": "assets/icon.png",
-    
-    "platforms": [
-      "ios",
-      "android"
-    ],
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "icon": "assets/icon.png",
     "splash": {
       "image": "assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "bundleIdentifier": "com.ikagaming.rouletteprivatepredictor",
-      "supportsTablet": true
+      "bundleIdentifier": "com.ikagaming.rouletteprivatepredictor"
     },
     "android": {
-      "package": "com.ikagaming.rouletteprivatepredictor",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
