@@ -3,7 +3,6 @@ import { View, Text, TextInput, TouchableOpacity, Image, StyleSheet, Modal } fro
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import PaywallScreen from './screens/PaywallScreen';
-import 'react-native-polyfill-globals/auto';
 
 if (typeof global.setImmediate === 'undefined') {
     global.setImmediate = (fn, ...args) => setTimeout(fn, 0, ...args);
