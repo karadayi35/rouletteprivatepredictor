@@ -6,9 +6,9 @@
     "platforms": ["ios", "android"],
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "icon": "assets/icon.png",
+    "icon": "./assets/icon.png",
     "splash": {
-      "image": "assets/splash-icon.png",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "assets/favicon.png"
+      "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
