@@ -5,6 +5,10 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -13,9 +17,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "bundleIdentifier": "com.ikagaming.rouletteprivatepredictor",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.ikagaming.rouletteprivatepredictor",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -23,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f0394d9e-cafc-43c7-810d-6d5c5b521d9a"
+      }
     }
   }
 }
