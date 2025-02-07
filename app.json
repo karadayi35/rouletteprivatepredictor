@@ -24,7 +24,7 @@
     "android": {
       "package": "com.ikagaming.rouletteprivatepredictor",
       "adaptiveIcon": {
-        "foregroundImage": "assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
