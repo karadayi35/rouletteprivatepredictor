@@ -5,6 +5,9 @@ import { createStackNavigator } from '@react-navigation/stack';
 import PaywallScreen from './screens/PaywallScreen';
 import 'react-native-polyfill-globals/auto';
 
+if (typeof global.setImmediate === 'undefined') {
+    global.setImmediate = (fn, ...args) => setTimeout(fn, 0, ...args);
+  }
 
 const Stack = createStackNavigator();
 const RoulettePredictor = () => {
